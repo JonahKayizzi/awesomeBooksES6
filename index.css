@@ -198,3 +198,11 @@ tr:nth-child(even) {
   text-align: right;
   font-size: 10px;
 }
+
+.navlist li:hover {
+  cursor: pointer;
+}
+
+#bf {
+  color: #6f38c5;
+}
