@@ -31,17 +31,17 @@ run the following commands in your terminal
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/JonahKayizzi)
+- GitHub: [@JonahKayizzi](https://github.com/JonahKayizzi)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](https://github.com/JonahKayizzi/awesomeBooksES6/issues).
+
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used.
-
-Feel free to check the [issues page](https://github.com/JonahKayizzi/awesomeBooksES6/issues).
 
 ## Show your support
 
