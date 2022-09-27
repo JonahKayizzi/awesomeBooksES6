@@ -16,25 +16,21 @@
   <body>
     <nav>
       <div class="logo"><p>Awesome Books</p></div>
-      
       <ul class="navlist">
-        <li onclick="displayList()"> List</li>
+        <li onclick="displayBookList()"> List</li>
         <li><div class="v-line"></div></li>
-        <li onclick="newBook()">Add New</li>
+        <li onclick="displayBookForm()">Add New</li>
         <li><div class="v-line"></div></li>
-        <li onclick="contactInfo()">Contact</li>
+        <li onclick="displayContactInfo()">Contact</li>
       </ul>
     </nav>
     <header>
-      <h1>All awesome Books</h1>
+      <h1>Add a New Book</h1>
     </header>
     <table class="books-table hdn">
       <tbody class="books">
       </tbody>
     </table>
-    <div class="spacer">
-
-    </div>
     <form class="add-book mid-sections">
       <input type="text" class="title-input" placeholder="Title" required>
       <input type="text" class="author-input" placeholder="Author" required>
@@ -48,7 +44,8 @@
         <li class="contact-list">Our address: Streetname 22, 84503 City, Country</li>
       </ul>
     </section>
-    <script src="./index.js"></script>
+    <script type="module" src="./index.js"></script>
+    <script src="./modules/toggleNav.js"></script>
     <footer>
       <div class="footer">
         <p class="footer-text">Awesome Books © 2022</p>
