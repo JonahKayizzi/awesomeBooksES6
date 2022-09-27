@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><p>Awesome Books</p></div>
+      <ul class="navlist">
+        <li id="bl" onclick="displayBookList()"> List</li>
+        <li><div class="v-line"></div></li>
+        <li id="bf" onclick="displayBookForm()">Add New</li>
+        <li><div class="v-line"></div></li>
+        <li id="ci" onclick="displayContactInfo()">Contact</li>
+      </ul>
+      <p class="time-container"></p>
+    </nav>
+    <header>
+      <h1>Add a New Book</h1>
+    </header>
+    <table class="books-table hdn">
+      <tbody class="books">
+      </tbody>
+    </table>
+    <form class="add-book mid-sections">
+      <input type="text" class="title-input" placeholder="Title" required>
+      <input type="text" class="author-input" placeholder="Author" required>
+      <button type="submit" class="add-btn">Add</button>
+    </form>
+    <section class="contact hdn">
+      <p class="contact-text">Do you have any questions or you just want to say "Hello"? <br> You can reach out to us!</p>
+      <ul class="contacts">
+        <li class="contact-list">Our e-email:mail@mail.com</li>
+        <li class="contact-list">Our phone number: 0043586534422</li>
+        <li class="contact-list">Our address: Streetname 22, 84503 City, Country</li>
+      </ul>
+    </section>
+    <script type="module" src="./index.js"></script>
+    <script src="./modules/toggleNav.js"></script>
+    <footer>
+      <div class="footer">
+        <p class="footer-text">Awesome Books © 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>
