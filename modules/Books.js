@@ -1,9 +1,9 @@
-import Book from "./Book.js";
+import Book from './Book.js';
 
 class Books {
-    constructor() {
-      this.books = [];
-    }
+  constructor() {
+    this.books = [];
+  }
 
     addBook = (title, author) => {
       const storedBooks = JSON.parse(window.localStorage.getItem('storedBooks'));
@@ -23,8 +23,8 @@ class Books {
       });
       localStorage.setItem('storedBooks', JSON.stringify(this.books));
     }
-  }
+}
 
-  const ourBooks = new Books();
+const ourBooks = new Books();
 
-  export default ourBooks;
+export default ourBooks;

@@ -5,6 +5,7 @@ body {
   width: 100%;
   align-items: center;
   font-family: "Raleway", sans-serif;
+  position: relative;
 }
 
 .spacer {
@@ -140,10 +141,6 @@ footer {
   font-weight: bold;
   margin-top: 10px;
   height: 50px;
-}
-
-body {
-  position: relative;
 }
 
 .contact {
