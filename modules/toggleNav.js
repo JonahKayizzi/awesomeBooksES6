@@ -32,5 +32,3 @@ const displayBookList = (() => {
     contact.classList.remove('hdn');
     header[0].textContent = 'Contact Information';
   });
-
-  export {displayBookList, displayBookForm, displayContactInfo};

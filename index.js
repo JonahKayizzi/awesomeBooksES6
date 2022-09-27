@@ -1,10 +1,13 @@
 import ourBooks from './modules/Books.js';
 import displayBooks from './modules/displayBooks.js';
-import {displayBookList, displayBookForm, displayContactInfo} from './modules/toggleNav.js' 
+import showTime from './modules/showTime.js';
 
 window.onload = () => {
+
     const addBookbtn = document.querySelector('.add-btn');
-     
+
+    setInterval(showTime,1000)
+
     addBookbtn.addEventListener('click', (e) => {
       e.preventDefault();
       const titleInput = document.querySelector('.title-input');

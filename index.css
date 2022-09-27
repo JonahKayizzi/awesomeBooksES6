@@ -50,7 +50,8 @@ nav {
   border: 3px solid black;
   margin-top: 10px;
   width: 80%;
-  height: 50px;
+  height: 51px;
+  flex-wrap: wrap;
 }
 
 ul {
@@ -191,4 +192,12 @@ tr {
 
 tr:nth-child(even) {
   background-color: #c4c5c5;
+}
+
+.time-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  font-size: 10px;
 }
